@@ -1,0 +1,226 @@
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .collapse navbar-collapse navbar-menubuilder {
+  text-align: center;
+}
+
+
+body { background-color: transparent; }
+
+p {
+    font-family: Montserrat;
+}
+
+h1 {
+    font-family: Montserrat;
+}
+
+h2 {
+    font-family: Montserrat;
+}
+
+}
+ul, li {
+    display: inline;
+    padding: 11PX;
+    height: 6%;
+    margin-top: 2%;
+    
+}
+
+li {
+    border-right: 2px solid black;
+    height: 20%;
+
+}
+
+#li_home {
+    
+    border-left: 2px solid black;
+}
+
+#Signin {
+    margin-left: 10%;
+    border: 2px solid black;
+}
+
+
+
+
+.hero {
+    background-position: center; 
+    position: relative;
+    margin-left: -60px;
+    background-size: cover;  
+}
+
+
+
+.header{
+  position:absolute;
+  top:25%;
+  left: 10%;
+  color:#fff;
+  font-size:56px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+   	-webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);  
+    font-family: Montserrat
+
+}
+
+.sub{
+  position:absolute;
+  top: 43%;
+  left: 10%;
+  color:#fff;
+  font-size:30px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+   	-webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);  
+    font-family: Montserrat
+
+}
+
+
+
+.child2 {
+    /* width: 110%;
+    height: 100%;
+    */
+    background-position: center;
+    position: relative;
+    margin-left: -60px;
+     background-size: cover;
+}
+
+/* Nav CSS */
+
+li
+{
+    border: transparent;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0.33);
+    border-bottom-width: 0px;
+    width: 1100;
+    /*border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom: solid white 2px;
+    border-top: solid white 2px;
+    border-right: solid white 2px;
+    */
+    height: 55px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(227, 227, 227, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(248, 248, 248, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(255, 255, 255, 1);
+    background: -webkit-linear-gradient(top, rgba(231, 231, 231, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to bottom, rgba(231, 231, 231, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #000000;
+}
+
+/* Search bar */
+.search-form .form-group {
+  float: left !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+    
+}
+
+form
+{
+    padding-top: 10;
+    margin-left: 10;
+}
+
+#button
+{
+    padding-top: 10;
+    margin-left: 90;
+}
+
+.jumbotron1
+{
+    z-index: 1;
+    margin-top: 
+}
